@@ -16,7 +16,7 @@ class Login extends Component {
       return (
         <div className="flex justify-center items-center min-h-screen bg-gray-100">
           <div className="bg-white p-8 rounded-lg shadow-lg w-96">
-            <h2 className="text-center text-2xl font-semibold mb-6">ĐĂNG NHẬP TRANG QUẢN TRỊ</h2>
+            <h2 className="text-center text-2xl font-semibold mb-6">ĐĂNG NHẬP</h2>
             <form>
               <div className="space-y-4">
                 <div>
