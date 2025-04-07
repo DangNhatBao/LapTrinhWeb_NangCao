@@ -16,29 +16,29 @@ class Login extends Component {
       return (
         <div className="flex justify-center items-center min-h-screen bg-gray-100">
           <div className="bg-white p-8 rounded-lg shadow-lg w-96">
-            <h2 className="text-center text-2xl font-semibold mb-6">ADMIN LOGIN</h2>
+            <h2 className="text-center text-2xl font-semibold mb-6">ĐĂNG NHẬP TRANG QUẢN TRỊ</h2>
             <form>
               <div className="space-y-4">
                 <div>
-                  <label htmlFor="username" className="block text-sm font-medium text-gray-700">Username</label>
+                  <label htmlFor="username" className="block text-sm font-medium text-gray-700">Tài khoản</label>
                   <input
                     type="text"
                     id="username"
                     value={this.state.txtUsername}
                     onChange={(e) => { this.setState({ txtUsername: e.target.value }) }}
                     className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-gray-900"
-                    placeholder="Enter username"
+                    placeholder="Nhập tài khoản"
                   />
                 </div>
                 <div>
-                  <label htmlFor="password" className="block text-sm font-medium text-gray-700">Password</label>
+                  <label htmlFor="password" className="block text-sm font-medium text-gray-700">Mật khẩu</label>
                   <input
                     type="password"
                     id="password"
                     value={this.state.txtPassword}
                     onChange={(e) => { this.setState({ txtPassword: e.target.value }) }}
                     className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-gray-900"
-                    placeholder="Enter password"
+                    placeholder="Nhập mật khẩu"
                   />
                 </div>
                 <div>
@@ -47,7 +47,7 @@ class Login extends Component {
                     onClick={(e) => this.btnLoginClick(e)}
                     className="w-full py-2 px-4 bg-gray-900 text-white rounded-md shadow hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500"
                   >
-                    LOGIN
+                    Đăng nhập
                   </button>
                 </div>
               </div>
