@@ -43,7 +43,7 @@ class Inform extends Component {
             Giỏ hàng
           </Link>
           <span className="ml-1 text-white hover:text-white">
-            : <span className="font-bold text-red-400">{cartLength}</span> {cartLength === 1 ? 'item' : 'sản phẩm'}
+            : <span className="font-bold text-red-400">{cartLength}</span> {cartLength === 1 ? 'sản phẩm' : 'sản phẩm'}
           </span>
         </div>
       </div>
